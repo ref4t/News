@@ -24,8 +24,8 @@
       <file leaf-file-name="setdata.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/setdata.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+            <state relative-caret-position="345">
+              <caret line="20" column="17" lean-forward="true" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
               <folding>
                 <marker date="1528735981562" expanded="true" signature="151:188" ph="insert into test... " />
                 <marker date="1528735981562" expanded="true" signature="151:196" ph="insert into test... " />
@@ -117,6 +117,7 @@
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -143,12 +144,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1528730050786</updated>
-      <workItem from="1528730053462" duration="5813000" />
+      <workItem from="1528730053462" duration="6621000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5813000" />
+    <option name="totallyTimeSpent" value="6621000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1066" extended-state="6" />
@@ -213,8 +214,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/setdata.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+        <state relative-caret-position="345">
+          <caret line="20" column="17" lean-forward="true" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
           <folding>
             <marker date="1528735981562" expanded="true" signature="151:188" ph="insert into test... " />
             <marker date="1528735981562" expanded="true" signature="151:196" ph="insert into test... " />
