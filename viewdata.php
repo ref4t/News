@@ -1,26 +1,51 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: mdsae
- * Date: 11-Jun-18
- * Time: 10:07 PM
- */
-require 'config.php';
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>News Site</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
 
-$statement="select * from test";
-$result = mysqli_query($conn, $statement);
 
-if (mysqli_num_rows($result) > 0)
-{
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="index.php">News Site</a>
+        </div>
+        <ul class="nav navbar-nav">
+            <li><a href="index.php">Home</a></li>
+            <li class="active"><a href="viewdata.php">View data</a></li>
+            <li><a href="#">category 2</a></li>
+            <li><a href="#">category 3</a></li>
+        </ul>
+    </div>
+</nav>
+<div class="container">
+        <?php
+            require 'config.php';
 
-    while($row = mysqli_fetch_assoc($result))
-    {
-        echo $row['summertext'] ."<hr>";
-    }
-}
-else
-    {
-        echo "Nothing found in db";
-    }
+            $statement="select * from test";
+            $result = mysqli_query($conn, $statement);
 
-mysqli_close($conn);
+            if (mysqli_num_rows($result) > 0)
+            {
+                while($row = mysqli_fetch_assoc($result))
+                {
+                    echo "<div class='panel panel-default'><div class='panel-body'>".$row['summertext'] ."</div></div>";
+                }
+            }
+            else
+            {
+                echo "Nothing found in db";
+            }
+            mysqli_close($conn);
+        ?>
+</div>
+</body>
+</html>
