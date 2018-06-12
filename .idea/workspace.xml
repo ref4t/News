@@ -185,11 +185,18 @@
       <option name="project" value="LOCAL" />
       <updated>1528777100649</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="change in php storm workspace configuration">
+      <created>1528778349939</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1528778349939</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12148000" />
+    <option name="totallyTimeSpent" value="12186000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -236,7 +243,8 @@
     <MESSAGE value="nav bar added" />
     <MESSAGE value="offline summernote integration" />
     <MESSAGE value="view page redesign" />
-    <option name="LAST_COMMIT_MESSAGE" value="view page redesign" />
+    <MESSAGE value="change in php storm workspace configuration" />
+    <option name="LAST_COMMIT_MESSAGE" value="change in php storm workspace configuration" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
